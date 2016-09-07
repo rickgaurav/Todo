@@ -1,0 +1,40 @@
+{
+  "name": "todo_proj",
+  "version": "1.0.0",
+  "description": "My First todo full stack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickgaurav/Todo.git"
+  },
+  "author": "Gaurav Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rickgaurav/Todo/issues"
+  },
+  "homepage": "https://github.com/rickgaurav/Todo#readme",
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "jquery": "^3.1.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "webpack": "^1.13.2",
+    "webpack-bundle-tracker": "0.0.93"
+  },
+  "dependencies": {
+    "css-loader": "^0.25.0",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "style-loader": "^0.13.1"
+  }
+}

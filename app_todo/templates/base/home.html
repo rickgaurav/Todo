@@ -1,0 +1,25 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MY FIRST FULL STACK TODO APP</title>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/todo.css' %}">
+</head>
+<body>
+    <header>
+            <h2> My Todo Application </h2>
+    </header>
+    <div class="content">
+        <div id='container' class="container">
+            These are my todos.
+        </div>
+    </div>
+    <footer>
+            Copyright © W3Schools.com
+    </footer>
+    <script type="text/javascript" src="../../static/bundles/bundle.js"></script>
+</body>
+</html>
